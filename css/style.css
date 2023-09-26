@@ -1,0 +1,66 @@
+.score-menu{    
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+.monster{   
+    display: flex;
+    margin-left: 70px;
+    justify-content: center
+    
+}
+.monster-img {  
+position: relative;
+
+
+
+}
+
+.monster-img:active{    
+    top: 7px;
+}
+.monster-btn{   
+    font-family: 'Skranji';
+    background-color: #9ab074;;
+    margin-left: 700px;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;
+}
+.monster-btn:active{
+    position: relative;
+    background-color: #6f7f53;
+}
+
+
+.upgrade {
+    margin-top: -20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{ 
+    font-family: 'Skranji';
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #9ab074;
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;
+
+}
+
+.btn-1:active, .btn-2:active, .btn-3:active, .btn-4:active, .btn-5:active{  
+    position: relative;
+    background-color: #6f7f53;
+    top:1px
+}
